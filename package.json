@@ -5,7 +5,7 @@
   "homepage": "https://github.com/yyz945947732/git-unmerge-branches",
   "scripts": {
     "start": "node ./bin/index.js",
-    "lint": "biome check --unsafe ./lib && biome format --write ./lib"
+    "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib"
   },
   "bin": {
     "unmerge-branches": "./bin/index.js"
