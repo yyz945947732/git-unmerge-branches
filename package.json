@@ -1,6 +1,6 @@
 {
   "name": "git-unmerge-branches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "list all local Git branches that have not been merged into the base branch (default master).",
   "homepage": "https://github.com/yyz945947732/git-unmerge-branches",
   "scripts": {
