@@ -4,7 +4,7 @@
   <a href="https://www.npmjs.com/package/git-unmerge-branches">
     <img src="https://img.shields.io/npm/v/git-unmerge-branches.svg" alt="Version" />
   </a>
-  <a href="https://github.com/yyz945947732/gzteacher-workflow/pulls">
+  <a href="https://github.com/yyz945947732/git-unmerge-branches/pulls">
     <img
       src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"
       alt="PRs Welcome"
