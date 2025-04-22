@@ -18,7 +18,9 @@
   </a>
 </p>
 
-> list all branches that have not been merged into the main branch.
+> list all local Git branches that have **not been merged** into the base branch (default master).
+
+<img src="./assets/example.png" alt="workflow.png" border="0" />
 
 ## Install
 
@@ -28,19 +30,26 @@ npm install --global git-unmerge-branches
 
 ## Usage
 
-```txt
-$ unmerge-branches --help
+```bash
+npx unmerge-branches [options]
+```
 
-  Usage
-    $ unmerge-branches [options]
+### Options
 
-  Options
-    -h --help              Print this help
-    -v --version           Print git-unmerge-branches version number
-    -b --base <branch>     Specify the base branch (default: master)
+```bash
+-h, --help              Show help information
+-v, --version           Show the current version
+-b, --base <branch>     Specify the base branch (default: master)
+```
 
-  Examples
-    $ unmerge-branches -v
+### Examples
+
+```bash
+# List branches not merged into 'master'
+npx unmerge-branches
+
+# List branches not merged into 'main'
+npx unmerge-branches --base main
 ```
 
 ## LICENSE
